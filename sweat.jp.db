@@ -1,0 +1,35 @@
+$TTL    600
+@               IN SOA  ns.sweat.jp.       root (
+;$TTL    86400
+                              2012052301      ; serial
+;                              3H              ; refresh
+;                              15M             ; retry
+;                              1W              ; expiry
+;                              1D )            ; minimum
+                              10M              ; refresh
+                              10M             ; retry
+                              1D              ; expiry
+                              1H )            ; minimum
+
+                NS           ns.sweat.jp.
+                NS           ns4.sphere.ad.jp.
+                MX 10        @
+
+                A            202.191.113.33
+;                A            203.138.185.67
+ns              A            203.138.185.67
+;www             A            203.138.185.67
+;mail            A            203.138.185.67
+;houjin          A            203.138.185.67
+;muji            A            203.138.185.67
+wwwtest         A            203.138.185.67
+houjintest      A            203.138.185.67
+mujitest        A            203.138.185.67
+
+www             A            202.191.113.33
+mail            A            202.191.113.33
+previewtest     A            202.191.113.33
+renewtest       A            202.191.113.33
+houjin          A            202.191.113.33
+previewhoujin   A            202.191.113.33
+muji            A            202.191.113.33
